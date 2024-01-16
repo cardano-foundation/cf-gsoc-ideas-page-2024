@@ -21,3 +21,23 @@ Medium
 ### Size
 
 L - XL
+
+## CIP-0045 Improvements 
+
+[CIP-0045](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0045) introduces a method for setting up a peer-to-peer communication between two browser windows on different devices, eliminating the need for a central signaling server to exchange their IP addresses. This technique allows for the injection of an API (CIP-0030) from one browser (a wallet) to another (a DApp), enabling seamless and lightweight mobile support. To resolve their deep IPs behind different NATs, this approach uses a list of public WebTorrent trackers for peer discovery. However, in many scenarios, when the user is on a mobile device and aims to connect a wallet to a DApp in a browser on the same device, or in another situation where the user is on the same local network and wants to link the wallet on a phone to a DApp on the PC, the use of a torrent tracker becomes unnecessary due to the absence of NAT involvement. Furthermore, there's currently a bit of a hassle in switching between a browser-based wallet and a website, for instance, to sign a message. The mission of this project would be to investigate both topics: situation-dependent peer discovery and enhanced usability. You can explore a demo setup in the open-source repository [available here](https://github.com/fabianbormann/cip-0045-demo-implementation)https://github.com/fabianbormann/cip-0045-demo-implementation.
+
+### Tech you need to know	
+
+Typescript, React.js, Ionic, Node.js
+
+### Tech you will learn	
+
+WebTorrent, CIP-0030 (Cardano dApp-Wallet Web Bridge), Firebase Cloud Messaging SDK
+
+### Difficulty
+
+Hard
+
+### Size
+
+L - XL
