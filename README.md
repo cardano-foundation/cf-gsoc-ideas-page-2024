@@ -45,3 +45,30 @@ Hard
 ### 👕 Size
 
 L - XL
+
+## 👉 Smart Contract Classificator
+
+### 🚣 Your Mission
+
+At the moment, figuring out the purpose of a smart contract on Cardano only based on hashes and binary data is quite challenging. However, there are always identifiable patterns. Have you ever wondered how many smart contracts are actually being utilized for financial purposes? Is Cardano positioning itself as the go-to blockchain for gaming? What about smart contracts in supply chain scenarios, voting mechanisms, or even for distributing art and music? The truth is, no one really knows... yet.
+
+This mission involves developing a smart contract classifier using a combination of machine learning, statistics, and various conditions. From Convolutional Networks to Gradient Boosting Decision Trees, and even manual feature engineering – everything is on the table. The goal is to design an algorithm capable of taking a smart contract transaction and providing probabilities for different use-case labels.
+
+Whether it's addresses, reference scripts, or reference datums, we are confident that you'll create a tool that can answer the questions mentioned above. To support you in this venture, we'll assign you a mentor with previous experience as a machine learning engineer. This mentor will provide you with ground truth data, guide you on how to find it, and offer deeper insights into the world of Cardano. Towards the end of this journey, our plan is to apply your algorithm to all the on-chain contracts to create a meaningful report.
+
+### 🏄 Skills required
+
+Python, Scala, Statstics, Machine Learning (basics), Smart Contracts under Cardano (beginner level)
+
+### 🐋 You'll know those things after summer
+
+Classification algorithms, Data Science, Cardano Smart Contracts, deep insights in how Cardano actually works
+
+### 🏋️ Difficulty
+
+Challenging 
+
+### 👕 Size
+
+M
+
