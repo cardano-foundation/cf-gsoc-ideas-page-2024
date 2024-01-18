@@ -28,7 +28,7 @@ Medium
 
 L - XL
 
-## 👉 CIP-0045 Improvements 
+## 👉 Cardano Peer Connect (CIP-0045) Improvements
 
 ### 🚣 Your Mission
 
