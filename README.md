@@ -97,7 +97,7 @@ Your challenge is to elevate the utility of the Cardano testnet by developing a 
 - Proficiency in Javascript(recommended) or Java, for minting assets.
 - Experience with RESTful API development.
 - Familiarity with blockchain technology, specifically Cardano's ecosystem. 
-- Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54, CIP-27, CIP-60).
+- Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54, CIP-27, CIP-60, CIP-68).
 
 ### 🐋 You'll Know Those Things After Summer
 
