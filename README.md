@@ -1,6 +1,16 @@
 # Google Summer of Code 2024 Ideas 🎉
 
-This page showcases project ideas that align seamlessly with our Roadmap and are an ideal fit for GSOC '24. We aim to offer valuable insights into the necessary skillset and prerequisites, along with expectations for learning throughout the project. In addition to providing a project name and a concise descriptive abstract, we've included an assessment of general difficulty (assuming you meet the requirements) and project size
+This page showcases project ideas that align seamlessly with our Roadmap and are an ideal fit for GSOC '24. We aim to offer valuable insights into the necessary skillset and prerequisites, along with expectations for learning throughout the project. In addition to providing a project name and a concise descriptive abstract, we've included an assessment of general difficulty (assuming you meet the requirements) and project size. You will find the project list below. The sections represent the project titles, and the subsections are structured as follows:
+
+| Subsection                            | Meaning                 | Values                                |
+|---------------------------------------|-------------------------|---------------------------------------|
+| Your Mission                          | Brief Overview             | `Free-form text`                           |
+| Skills required                       | Things you already know | `List of skills and technologies`     |
+| You'll know those things after summer | Things you will learn   |  `List of skills and technologies`    |
+| Difficulty                            | Difficulty ranges from a significant workload but straightforward implementation (Easy) to a research-oriented task with an unpredictable outcome (Challenging) | `Easy, Medium, Hard, Challanging` |
+| Size                                  | Consider the project's potential output size: whether it will be a Jupyter notebook (S-M), a library, or a standalone application (L-XL) | `S, M, L, XL` |
+
+For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Challenging` in Difficulty and `S` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling into the `XL` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the time invested in coding.
 
 ## 👉 Untyped Plutus Core Viewer, AKA Understandable Decompiled Smart Contracts
 
