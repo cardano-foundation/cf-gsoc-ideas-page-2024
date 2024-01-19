@@ -90,14 +90,14 @@ M
 
 ### 🚣 Your Mission
 
-Your challenge is to elevate the utility of the Cardano testnet by developing a versatile API service. This service will automate the minting and distribution of a diverse range of Cardano blockchain assets, including NFTs and native tokens, to specified payment addresses. This project is a significant step beyond the current capabilities of the [**Cardano faucet**](https://docs.cardano.org/cardano-testnet/tools/faucet/), which is limited to dispensing Ada. By integrating various asset types defined in the Cardano Improvement Proposals (CIPs), such as CIP-25 (Media Token Metadata Standard) and CIP-54 (Cardano Smart NFTs), you will be creating a tool that is indispensable for developers. This API will serve as a critical resource, providing them with a variety of test assets to enhance the development, testing, and optimization of wallets, blockchain explorers, and other applications/dApps. Your work will play a pivotal role in simulating real-world asset handling, crucial for the rigorous testing and preparation of applications before their deployment in production environments.
+Your challenge is to elevate the utility of the Cardano testnet by developing a versatile API service. This service will automate the minting and distribution of a diverse range of Cardano blockchain assets, including NFTs and native tokens, to specified payment addresses. This project is a significant step beyond the current capabilities of the [**Cardano faucet**](https://docs.cardano.org/cardano-testnet/tools/faucet/), which is limited to dispensing Ada. By integrating various asset types defined in the Cardano Improvement Proposals (CIPs), such as [CIP-25](https://cips.cardano.org/cip/CIP-0025) (Media Token Metadata Standard) and [CIP-54](https://cips.cardano.org/cip/CIP-0054) (Cardano Smart NFTs), you will be creating a tool that is indispensable for developers. This API will serve as a critical resource, providing them with a variety of test assets to enhance the development, testing, and optimization of wallets, blockchain explorers, and other applications/dApps. Your work will play a pivotal role in simulating real-world asset handling, crucial for the rigorous testing and preparation of applications before their deployment in production environments.
 
 ### 🏄 Skills Required
 
 - Proficiency in Javascript(recommended) or Java, for minting assets.
 - Experience with RESTful API development.
 - Familiarity with blockchain technology, specifically Cardano's ecosystem. 
-- Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54).
+- Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54, CIP-27).
 
 ### 🐋 You'll Know Those Things After Summer
 
