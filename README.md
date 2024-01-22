@@ -122,3 +122,27 @@ The importance of testnets in blockchain development cannot be overstated. Testn
 - Facilitating the development and testing of smart contracts under real-world conditions without the associated risks.
   
 This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
+
+## 👉 DApp End-2-End Testing Framwork
+
+### 🚣 Your Mission
+
+A decentralized App (dApp) mainly consists of a frontend application that has the feature to connect itself to a wallet, but at the same time, it interacts with the blockchain. Although many Cardano dApps can utilize frameworks like Playwright or Cypress to test their click flow or business logic using mock data, testing end-to-end functionality is currently not as straightforward. The use of a public testnet in a continuous integration (CI) pipeline necessitates the dApp to maintain a test wallet with sufficient tADA or native test tokens, ensuring consistent preconditions for each run. Testing edge cases would not be that easy, as they often involve a complex set of requirements that developers must create and maintain on the public testnet.
+
+With yaci-devkit, we have a local testnet that developers can easily set up on a local machine or in a CI pipeline. Given our close collaboration with wallet providers in the ecosystem, your primary objective for this project will be to create and implement an architecture that seamlessly integrates a local testnet (devnet) into wallets, providing a developer-friendly experience for wallet providers and developers. Ideally, this should involve a test container with a pre-configured wallet plugin on a headless Chromium browser, along with Yaci-devkit, which expects a configuration file for managing top-ups and "genesis" amounts in wallets. A library that automates the click-flow for signing, transaction submission, etc., would be a game-changer for Cardano developers worldwide looking to test transactions, minting operations, or even smart contracts within their dApp in their CI pipeline.
+
+### 🏄 Skills Required
+
+TypeScript, Docker, Bash, Cypress or Playwright, GitHub Actions, CICD, Cardano (beginner level)
+
+### 🐋 You'll Know Those Things After Summer
+
+Cardano fundamentals, such as eUTXO and dApp & Wallet communication, How to provide a test automation framework for an extensive ecosystem
+
+### 🏋️ Difficulty
+
+Hard
+
+### 👕 Size
+
+L
