@@ -7,7 +7,7 @@ This page showcases project ideas that align seamlessly with our Roadmap and are
 | Your Mission                          | Brief Overview             | `Free-form text`                           |
 | Skills required                       | Things you already know | `List of skills and technologies`     |
 | You'll know those things after summer | Things you will learn   |  `List of skills and technologies`    |
-| Difficulty                            | Difficulty ranges from a significant workload but straightforward implementation (Easy) to a research-oriented task with an unpredictable outcome (Challenging) | `Easy, Medium, Hard, Challanging` |
+| Difficulty                            | Difficulty ranges from a significant workload but straightforward implementation (Easy) to a research-oriented task with an unpredictable outcome (Challenging) | `Easy, Medium, Hard, Challenging` |
 | Size                                  | Consider the project's potential output size: whether it will be a Jupyter notebook (S-M), a library, or a standalone application (L-XL) | `S, M, L, XL` |
 
 For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Challenging` in Difficulty and `S` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling into the `XL` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the time invested in coding.
@@ -123,7 +123,7 @@ The importance of testnets in blockchain development cannot be overstated. Testn
   
 This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
 
-## 👉 DApp End-2-End Testing Framwork
+## 👉 DApp End-2-End Testing Framework
 
 ### 🚣 Your Mission
 
@@ -146,3 +146,47 @@ Hard
 ### 👕 Size
 
 L
+
+## 👉 Create a graph-native query layer for Cardano
+
+### 🚣 Your Mission
+
+Cardano DLT is based on the [eUTxO (Extended Unspent Transaction Output) model][eutxo-model], which in practice, generates an heterogeneous (decentralized) data lake of [un]structured data that is inherently more similar to a graph than to just a transactional ledger of balances, and doing (semantic) searches for relationships between different entities across the huge amounts of data the blockchain users produce should be much cheaper in terms of computational resources and therefore, usually quicker, [using a graph-native database than a non-native (such as relational ones)][neo4j-native-vs-non-native]; also while crafting the queries to analyse data.
+
+While there are currently multiple alternatives to feed Cardano events into relational databases such as `postgres`, message queues such `kafka` or virtually any data store using webhooks, and although some PoCs (using [oura][oura-dgraph-poc] and [yaci][yaci-fluree-poc]) exist to store Cardano events into [dGraph][dgraph] or [Fluree][fluree] graph-native solutions, there is no ready-to-consume API nor queries that makes use of a graph-native database as storage engine, so the proposed mission would be to come up with an integrated solution that makes possible to query meaningful data for consumers like for example wallets or financial tools. *E.g.*:
+
+* Balances (per address, per stake account, per contract...)
+* Metadata events ([N]FT mints, messages, CIP events...)
+* dApp interations (smart contracts executions, dApp events...)
+* Financial analysis (token distributions, transactions volume...)
+
+Graphs is where [web3][web3], maybe, meets [web3.0][web30]; as both are about linked data.
+
+[eutxo-model]: https://en.wikipedia.org/wiki/Unspent_transaction_output#The_Extended_UTXO_(EUTXO)_Model
+[oura-dgraph-poc]: https://github.com/txpipe/oura/tree/main/testdrive/cardano2dgraph
+[yaci-fluree-poc]: _placeholder_for_the_docker_compose_poc_to_be_git_pushed_
+[fluree]: https://flur.ee/
+[dgraph]: https://dgraph.io/
+[neo4j]: https://neo4j.com/developer/graph-database/#neo4j-overview
+[neo4j-native-vs-non-native]: https://neo4j.com/blog/native-vs-non-native-graph-technology/
+[web3]: https://en.wikipedia.org/wiki/Web3
+[web30]: https://en.wikipedia.org/wiki/Web_3.0
+
+### 🏄 Skills required
+
+- Proficiency in at least one programming language and scripting language (bash)
+- Experience with RESTful API development
+- General understanding of a graph database (such as [neo4j][neo4j])
+- OCI-compliant containers management
+
+### 🐋 You'll know those things after summer
+
+At least one graph query language (graphql, sparql, dql...), Cardano entities/events, ETL
+
+### 🏋️ Difficulty
+
+Challenging
+
+### 👕 Size
+
+XL
