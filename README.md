@@ -181,7 +181,7 @@ Graphs is where [web3][web3], maybe, meets [web3.0][web30]; as both are about li
 
 ### 🐋 You'll know those things after summer
 
-At least one graph query language (graphql, sparql, dql...), Cardano entities/events, ETL
+Graph databases fundamentals, at least one graph query language (graphql, sparql, dql...), Cardano entities/events, ETL
 
 ### 🏋️ Difficulty
 
