@@ -164,7 +164,7 @@ Graphs is where [web3][web3], maybe, meets [web3.0][web30]; as both are about li
 
 [eutxo-model]: https://en.wikipedia.org/wiki/Unspent_transaction_output#The_Extended_UTXO_(EUTXO)_Model
 [oura-dgraph-poc]: https://github.com/txpipe/oura/tree/main/testdrive/cardano2dgraph
-[yaci-fluree-poc]: _placeholder_for_the_docker_compose_poc_to_be_git_pushed_
+[yaci-fluree-poc]: https://github.com/cardano-foundation/cf-ledger-sync/blob/chore/test-streaming-events-to-fluree/streamer-app/README.fluree.md
 [fluree]: https://flur.ee/
 [dgraph]: https://dgraph.io/
 [neo4j]: https://neo4j.com/developer/graph-database/#neo4j-overview
