@@ -7,10 +7,10 @@ This page showcases project ideas that align seamlessly with our Roadmap and are
 | Your Mission                          | Brief Overview             | `Free-form text`                   |
 | Skills required                       | Things you already know | `List of skills and technologies`     |
 | You'll know those things after summer | Things you will learn   |  `List of skills and technologies`    |
-| Difficulty                            | Difficulty ranges from a significant workload but straightforward implementation (Easy) to a research-oriented task with an unpredictable outcome (Challenging) | `Easy, Medium, Hard, Challenging` |
+| Difficulty                            | Difficulty ranges from a significant workload but straightforward implementation (Easy) to a research-oriented task with an unpredictable outcome (Challenging) | `Easy, Intermediate or Hard` |
 | Size                                  | The size of the project, measured by the estimated hours required for completion | `90 hours, 175 hours or 350 hours` |
 
-For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Challenging` in Difficulty and `350 hours` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling also into `350 hours` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the overall time estimate for project completion.
+For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Hard` in Difficulty and `350 hours` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling also into `350 hours` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the overall time estimate for project completion.
 
 ## 👉 Untyped Plutus Core Viewer, AKA Understandable Decompiled Smart Contracts
 
@@ -32,7 +32,7 @@ Cardano Smart Contracts, Plutus Core, Aiken
 
 ### 🏋️ Difficulty
 
-Medium
+Intermediate
 
 ### 👕 Size
 
@@ -80,7 +80,7 @@ Classification algorithms, Data Science, Cardano Smart Contracts, deep insights 
 
 ### 🏋️ Difficulty
 
-Challenging 
+Hard 
 
 ### 👕 Size
 
@@ -107,7 +107,7 @@ Expertise in integrating diverse blockchain assets into applications
 
 ### 🏋️ Difficulty
 
-Medium – This project involves not only the technical aspects of API development and blockchain integration but also requires a deep understanding of the Cardano blockchain's native asset standards.
+Intermediate – This project involves not only the technical aspects of API development and blockchain integration but also requires a deep understanding of the Cardano blockchain's native asset standards.
 
 ### 👕 Size
 
@@ -187,7 +187,7 @@ Graph databases fundamentals, at least one graph query language (graphql, sparql
 
 ### 🏋️ Difficulty
 
-Challenging
+Hard
 
 ### 👕 Size
 
