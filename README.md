@@ -4,13 +4,13 @@ This page showcases project ideas that align seamlessly with our Roadmap and are
 
 | Subsection                            | Meaning                 | Values                                |
 |---------------------------------------|-------------------------|---------------------------------------|
-| Your Mission                          | Brief Overview             | `Free-form text`                           |
+| Your Mission                          | Brief Overview             | `Free-form text`                   |
 | Skills required                       | Things you already know | `List of skills and technologies`     |
 | You'll know those things after summer | Things you will learn   |  `List of skills and technologies`    |
 | Difficulty                            | Difficulty ranges from a significant workload but straightforward implementation (Easy) to a research-oriented task with an unpredictable outcome (Challenging) | `Easy, Medium, Hard, Challenging` |
-| Size                                  | Consider the project's potential output size: whether it will be a Jupyter notebook (S-M), a library, or a standalone application (L-XL) | `S, M, L, XL` |
+| Size                                  | The size of the project, measured by the estimated hours required for completion | `90 hours, 175 hours or 350 hours` |
 
-For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Challenging` in Difficulty and `S` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling into the `XL` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the time invested in coding.
+For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Challenging` in Difficulty and `350 hours` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling also into `350 hours` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the overall time estimate for project completion.
 
 ## 👉 Untyped Plutus Core Viewer, AKA Understandable Decompiled Smart Contracts
 
@@ -36,7 +36,7 @@ Medium
 
 ### 👕 Size
 
-L - XL
+175 hours
 
 ## 👉 Cardano Peer Connect (CIP-0045) Improvements
 
@@ -58,7 +58,7 @@ Hard
 
 ### 👕 Size
 
-L - XL
+175 hours
 
 ## 👉 Smart Contract Classificator
 
@@ -84,7 +84,7 @@ Challenging
 
 ### 👕 Size
 
-M
+350 hours
 
 ## 👉 Enhanced Cardano Asset API Service
 
@@ -111,7 +111,9 @@ Medium – This project involves not only the technical aspects of API developme
 
 ### 👕 Size
 
-M - L – The project's output will be a fully functional API service capable of handling multiple asset types, requiring significant coding and testing.
+350 hours
+
+The project's output will be a fully functional API service capable of handling multiple asset types, requiring significant coding and testing.
 
 ### 🌍 Importance of Testnets in Blockchain Development
 
@@ -145,7 +147,7 @@ Hard
 
 ### 👕 Size
 
-L
+175 hours
 
 ## 👉 Create a graph-native query layer for Cardano
 
@@ -189,4 +191,4 @@ Challenging
 
 ### 👕 Size
 
-XL
+350 hours
